@@ -9,9 +9,8 @@
 ```bash
 git clone https://github.com/Fruha/KVNT_TT
 cd KVNT_TT
-conda create --name kvnt python==3.10.12 -y
-conda activate kvnt
-conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -19,19 +18,25 @@ pip install -r requirements.txt
 ```bash
 git clone https://github.com/Fruha/KVNT_TT 
 cd KVNT_TT
-conda create --name kvnt python==3.10.12 -y
-source activate kvnt
+python -m venv venv
+source venv/bin/activate
 apt-get update && apt-get install -y libsndfile1 ffmpeg
-conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
 pip install -r requirements.txt
 ```
 
 ## Usage
 
+### Windows
+```bash
+venv\Scripts\activate
+python main.py
+```
+### Linux
 ```bash
 source activate kvnt
 python main.py
 ```
+
 
 Output
 ```bash
