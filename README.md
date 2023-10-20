@@ -1,7 +1,7 @@
 ## Description
 Тестовое задание, написание скрипта для пайплайна VAD+ASR
 Запуск на Colab 
-<a href="https://colab.research.google.com/drive/1rkq48ZPvd3XElkFvSqgtx5Ght6ro9PNg"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+<a href="https://colab.research.google.com/drive/1WQ6ilX2Z9jgMp0kM-pbcfFRAa95OSoko"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
 ## Installation
 ### WINDOWS
