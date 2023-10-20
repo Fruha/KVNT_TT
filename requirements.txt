@@ -1,4 +1,6 @@
 Cython
 git+https://github.com/NVIDIA/NeMo.git@main
-git+https://github.com/NVIDIA/NeMo.git@main#egg=nemo_toolkit[lightning,common,asr]
+git+https://github.com/NVIDIA/NeMo.git@main#egg=nemo_toolkit[lightning]
+git+https://github.com/NVIDIA/NeMo.git@main#egg=nemo_toolkit[common]
+git+https://github.com/NVIDIA/NeMo.git@main#egg=nemo_toolkit[asr]
 librosa==0.10.1
