@@ -11,6 +11,7 @@ git clone https://github.com/Fruha/KVNT_TT
 cd KVNT_TT
 python -m venv venv
 venv\Scripts\activate
+pip install cython
 pip install -r requirements.txt
 ```
 
@@ -21,6 +22,7 @@ cd KVNT_TT
 python -m venv venv
 source venv/bin/activate
 apt-get update && apt-get install -y libsndfile1 ffmpeg
+pip install cython
 pip install -r requirements.txt
 ```
 
